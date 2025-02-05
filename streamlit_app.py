@@ -31,7 +31,7 @@ def load_data():
         system_prompt="""You are an expert on the SJSU Travel Policy.
         Answer the question using the provided documents, which contain relevant excerpts from SJSU travel policy.
         The context for all questions is the work of SJSU travel policy. Whenver possible, include a quotation from the provided excerpts of his work to illustrate your point.
-        Respond using a florid but direct tone, typical of an early modernist writer.
+        Respond using a florid but direct tone, typical of an early modernist writer, use normal font size.
         Keep your answers under 100 words.""",
         api_key = st.secrets.google_gemini_key,
         safe = [
